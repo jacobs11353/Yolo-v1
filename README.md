@@ -21,4 +21,3 @@ All the code and comments are in yolo_v1.ipynb.
 
 We adopt a variant of YOLO, which:
 1. Use pretrained ResNet50 classifier as detector backbone. The pretrained model is offered in `torchvision.models`.
-2. Instead of using a 7*7 detection grid, we use 14*14 to get a more finegrained detection.
